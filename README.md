@@ -8,13 +8,13 @@ To download and install just run these commands, a) or b), depending in your sit
 
 a) for single IP
 
-	wget --no-check-certificate https://raw.github.com/ohmigoo/3Tproxy/master/3proxyinstaller.sh
+	wget --no-check-certificate https://raw.github.com/ohmigoo/3proxy/master/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
 b) for multiple IP's (this will download a different .cfg file prepared for multiple IPs)
 
-    wget --no-check-certificate https://raw.github.com/ohmigoo/3Tproxy/master/3proxy_installerX.sh
+    wget --no-check-certificate https://raw.github.com/ohmigoo/3proxy/master/3proxy_installerX.sh
     chmod +x 3proxy_installerX.sh
     ./3proxy_installerX.sh
     
@@ -39,7 +39,7 @@ Once you've changed the username / password you can start the proxy
 	
 For Uninstall Download, make executable and run with these lines :
 
-	wget --no-check-certificate https://raw.github.com/ohmigoo/3Tproxy/master/3proxyuninst.sh
+	wget --no-check-certificate https://raw.github.com/ohmigoo/3proxy/master/3proxyuninst.sh
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
