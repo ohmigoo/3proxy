@@ -14,3 +14,7 @@ app.use('/', async (req, res) => {
         res.status(500).send('Proxy request failed');
     }
 });
+
+app.listen(PORT, () => {
+    console.log(`Proxy server is running on port ${PORT}`);
+});
